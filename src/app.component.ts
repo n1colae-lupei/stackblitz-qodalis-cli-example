@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
-import { CliOptions } from '@qodalis/cli-core';
-import { CliModule } from '@qodalis/angular-cli';
+import { Component } from "@angular/core";
+import { CliOptions } from "@qodalis/cli-core";
+import { CliModule } from "@qodalis/angular-cli";
 
 @Component({
-  selector: 'app-root',
-  template: `<cli [options]="options" />  <cli-panel [options]="options" />`,
-  styleUrls: ['./app.component.sass'],
+  selector: "app-root",
+  template: `<cli [options]="options" /> <cli-panel [options]="options" />`,
+  styleUrls: ["./app.component.sass"],
   imports: [CliModule],
+  standalone: true,
 })
 export class AppComponent {
   options: CliOptions = {
@@ -15,5 +16,5 @@ export class AppComponent {
     },
   };
 
-  title = 'my-simple-app';
+  title = "my-simple-app";
 }
