@@ -18,7 +18,8 @@
     "rxjs": "^7.8.1",
     "tslib": "^2.5.0",
     "zone.js": "~0.13.0",
-    "@qodalis/angular-cli": "1.0.35",
+    "@qodalis/cli-core": "^0.0.15",
+    "@qodalis/angular-cli": "^1.0.36",
     "@qodalis/cli-guid": "^1.0.7"
   },
   "devDependencies": {

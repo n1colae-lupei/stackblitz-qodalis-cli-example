@@ -1,8 +1,7 @@
-/* Add application styles & imports to this file! */
 html,
 body {
-  margin: 0px;
-  padding: 0px;
-  min-height: 100%;
+  margin: 0;
+  padding: 0;
   height: 100%;
+  background: #000;
 }
