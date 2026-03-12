@@ -1,3 +1,28 @@
-.angular
-dist
-node_modules
+# Build output
+/dist
+/out-tsc
+/tmp
+
+# Dependencies
+/node_modules
+
+# Angular
+/.angular
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Misc
+/coverage
