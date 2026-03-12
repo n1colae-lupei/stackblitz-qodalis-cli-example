@@ -72,9 +72,5 @@ import { CliModule } from '@qodalis/angular-cli';
   standalone: true,
 })
 export class AppComponent {
-  options: CliOptions = {
-    usersModule: {
-      enabled: true,
-    },
-  };
+  options: CliOptions = {};
 }
