@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CliOptions } from '@qodalis/cli-core';
-import { CliModule } from '@qodalis/angular-cli';
+import { CliModule, CliPanelOptions } from '@qodalis/angular-cli';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,7 @@ import { CliModule } from '@qodalis/angular-cli';
         <cli [options]="options" height="100%" />
       </div>
     </div>
-    <cli-panel [options]="options" />
+    <cli-panel [options]="panelOptions" />
   `,
   styles: [
     `
@@ -73,4 +73,5 @@ import { CliModule } from '@qodalis/angular-cli';
 })
 export class AppComponent {
   options: CliOptions = {};
+  panelOptions: CliPanelOptions = { position: 'right', isHidden: true };
 }
