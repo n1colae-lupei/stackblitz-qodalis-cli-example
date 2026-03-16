@@ -34,7 +34,8 @@
             "scripts": [],
             "styles": [
               "src/global_styles.css",
-              "node_modules/@qodalis/angular-cli/src/assets/styles.sass"
+              "node_modules/@qodalis/angular-cli/src/assets/styles.sass",
+              "node_modules/@qodalis/cli/assets/cli-panel.css"
             ],
             "tsConfig": "tsconfig.app.json"
           }
