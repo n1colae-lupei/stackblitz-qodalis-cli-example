@@ -2,7 +2,7 @@
 
 Minimal Angular example using [`@qodalis/angular-cli`](https://www.npmjs.com/package/@qodalis/angular-cli).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/qodalis-solutions/stackblitz-qodalis-cli-example)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/qodalis-solutions/stackblitz-qodalis-cli-angular-example)
 
 ## Quick Start
 
