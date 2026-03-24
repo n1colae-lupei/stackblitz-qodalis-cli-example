@@ -18,12 +18,12 @@
     "rxjs": "^7.8.1",
     "tslib": "^2.5.0",
     "zone.js": "~0.15.0",
-    "@qodalis/cli": "^2.0.0-beta.9",
-    "@qodalis/cli-core": "^2.0.0-beta.9",
-    "@qodalis/angular-cli": "^2.0.0-beta.9",
-    "@qodalis/cli-guid": "^2.0.0-beta.9",
-    "@qodalis/cli-files": "^2.0.0-beta.9",
-    "@qodalis/cli-users": "^2.0.0-beta.9"
+    "@qodalis/cli": "^2.0.0-beta.10",
+    "@qodalis/cli-core": "^2.0.0-beta.10",
+    "@qodalis/angular-cli": "^2.0.0-beta.10",
+    "@qodalis/cli-guid": "^2.0.0-beta.10",
+    "@qodalis/cli-files": "^2.0.0-beta.10",
+    "@qodalis/cli-users": "^2.0.0-beta.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.0.0",
